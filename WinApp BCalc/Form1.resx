@@ -1,0 +1,440 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Help.Text" xml:space="preserve">
+    <value>"0,00" odds - entered in odds box, indicates a miss.
+Winnings for number of missed games is shown next to a number of misses.
+(next to no. "1." for one missed game, next to no."2." winnings for two missed games...
+</value>
+  </data>
+  <data name="HelpTextRacing.Text" xml:space="preserve">
+    <value>Racing
+
+Bilo da se radi o Formuli1, atletici ili utrci konja, Race kalkulator računa koliki trebaju biti koeficijenti za npr. biti među prva tri i sl.
+
+Vrlo je lako koristiti prednosti ovog alata jer kladionice često loše vrednuju plasman među npr. prva tri u odnosu na osvajanje prvog mjesta.
+Kad se malo "zaigrate" ovim kalkulatorom uočit ćete mnoge "value" oklade koje se zapravo nude, ali su bez ovakvog pomagala uglavnom skrivene od nas.
+
+Ne može biti jednostavniji za koristit, samo unesite koeficijente po redu i kliknite "Calculate". U gornjem desnom kutu pronaći ćete mali Kelly-jev kalkulator za brzi izračun uloga.
+</value>
+  </data>
+  <data name="HelpTextSystem.Text" xml:space="preserve">
+    <value>Systems
+
+služi za usporedno prikazivanje sistema, radi lakše usporedbe i odabira najprikladnijeg.
+
+Na temelju unešenog prosječnog koeficijenta (Avg.odds) i broja odigranih parova (Nmbr. of games) na primjer 7 parova, u okomitim stupcima biti će ispisani dobici kroz sisteme od [1 od 7] , [2 od 7] pa sve do "punog" sistema [7 ood 7].
+
+ Ispisani dobici su izračunati za jedinični ulog bez fikseva. Ako želite znati dobitke uz ukupni ulog na listiću od npr. $50, tada samo pomnožite sve sa 50 (i pomnožite sa eventualnim ukupnim koeficijentom fikseva, ako ste ih odigrali).
+
+Sa lijeve strane tablice nalaze se šanse za pogoditi određeni broj parova sa listića, a temelje se na vašem unosu u polje (Avrg. chances). U to polje trebate unesti vaše prosječne šanse kod pogađanja unešenog koeficijenta (npr. ako ste do sad taj prosiječni koeficijent pogadali 93 puta od 163 pokusaja, onda imate 93/163=52.09% prosiječne šanse, kao u primjeru koji vas dočeka kada pokrenete program i otvorite tab Systems).
+
+- Dakle, bilo bi pametno voditi vlastitu statistiku, u cilju maksimalizacije zarade.
+
+Klikom na gumb "Advanced" na dnu tablice, u retku pod imenom [ Max B^1 ] ispisat će se usporedno isplativosti za svaki sistem. Što je broj veći, prikladniji je sistem, tj. dugoročno više nosi. 
+
+Ali evo detaljnijeg objašnjenja:
+
+Znamo kolike prosječno pogađate taj koeficijent, pitamo se koji nam onda sistem dugoročno nosi najviše. Do odgovora dolazimo računanjem u kojem pretpostavljamo da ćete odigrat "puno" identičnih sistema sa jednakim prosječnim pogadanjem. Kada pogledamo stanje nakon velikog broja odigranih identičnih sistema, vidimo koji nam je sistem donesao naviše novca i kazemo da je upravo taj najbolji, a broj koji piše ispod svakog sistema u retku [ Max B^1 ] je broj koji označava prosiječno povečanje našeg kapitala (Banke) nakon jednog igranja (pa tako broj 1.075 znaci da ako smo počeli sa kapitalom od $100,00 i odigramo isti sistem 30x onda ćemo imati:
+
+1.075^30 x $100,00 = $875,50
+
+a ako bi neki drugi sistem nosio 1.082, onda bi igrajući njega imali:
+
+1.082^30 x $100,00 = $1.063,70
+
+Upravo je to poanta ovog alata.
+
+Dani "prinosi" [ Max B^1 ] temelje se na ulozima ispisanim ispod njih u retku [ Opt. Invest(%) ]. To su ulozi pri kojima se postiže maksimalna (ispisana) isplativost.
+
+Napominjem: iako je sve rečeno matematički ispravno, u praksi najčešće ne uspjevamo odigrati "tisuće" listića pri jednakim uvjetima, tako da je "preporučeni najbolji sistem" ipak samo odlična smjernica, ali nikako i pravilo.
+</value>
+  </data>
+  <data name="HelpTextBvPois.Text" xml:space="preserve">
+    <value>Bivariate Poisson
+
+Moćna matematička metoda za određivanje vjerojatnosti ishoda (koeficijenata)
+
+Moderna statistička analiza u svrhu predviđanja vjerojatnosti ishoda neke utakmice (tj. određivanje koeficijenata) nezamisliva je bez upotrebe Poisson-ove metode. 
+
+Što ona radi? 
+Pa ona na temelju prosiječnog broja poena koje suprotstavljeni timovi primaju i daju u odnosu na prosijek lige, računa vjerojatnost za svaki mogući ishod (rezultat). A onda iz toga možemo "izvući" sve ostalo što nas zanima (npr. ukupni br. poena, hendikep i slično).
+
+U gornjem lijevom kutu vam je pomoćni kalkulator u koji unosite podatke o ekipama. Klikom na "Grab values" šaljete podatke u "Poisson values". Ako ne znate kolika je varijanca (theta) možete se poslužiti pomoćnim kalkulatorom (dolje lijevo) tako da unesete vrijednosti i kliknete na tekst "Click and send to Theta", a zatim kliknete u polje [Theta] da bi aplicirali vrijednosti na [Poisson values].
+
+Ako želite izlistati vjerojatnosti, imate za to dvije opcije na desnom kraju gore pod "List All" i "Print to file" (može usporiti izracun). Naravno, što vise mogućih kombinacija rezultata (podrazumjevamo pod time da npr. košarka ima više opcija od nogometa što se tiće broja poena) to je duže vrijeme izračunavanja.
+</value>
+  </data>
+  <data name="HelpTextExchange.Text" xml:space="preserve">
+    <value>Exchange
+
+sluzi za izračunavanje "Lay" i "Back" iznosa kod trgovanja na burzi koeficijenata (poput Betfair-a ili MatchBox-a)
+
+Ako ste željeli zatvoriti poziciju sa gubitkom/profitom u nekom omjeru s obzirom na ishod,
+sada imate alat koji će brzo izračunati koliko trebaju iznositi "Lay" i "Back" Liability.
+</value>
+  </data>
+  <data name="HelpTextMisc.Text" xml:space="preserve">
+    <value>Miscellaneous
+
+
+Odds Converter
+
+Raličiti naćini iskazivanja onoga što nam kladionice nude (koeficijenata) za naše novce, može biti zbunjujuće. Zato imamo pretvornik koeficijenata različitih formata.
+U odgovarajuće polje unesite ponuđeni koeficijent i zatim kliknite u bilokoje drugo polje... i pretvorba je izvršena.
+
+
+Asian Handicap Calculator
+
+U posljednje vrijeme sve popularniji način klađenja putem tzv. azijskih hendikepa koji su često nerazumljivi. Da ne morate pamtiti ili previše razmišljati o tome šta će biti ako utakmica završi nekim rezultatom tu je ovaj kalkulator. Ne dopustite da vas kladionice obmanjuju zbunjujućim i naizgled dobrim ponudama, provjerite dobitke u slučaju određenih ishoda i donesite informiranu odluku.
+
+
+Spread Calculator
+
+Malo tko danas nudi, a isto tako igra "pravi" spread. No, s vremenom će se kao i sve drugo u kladenju i to proširiti. Za one koje takav način kladenja zanima stvoren je ovaj mali ali koristan alat.
+
+
+Expected Hitting
+
+Previše ljudi se pitalo kolike su šanse da se pogodi npr. barem 60 od 100 tipova s koeficijentom 2,00. Bilo da se radi o vlastitoj statistici i mogućnostima, ili o nekom internet "Tipsteru" koji navodno pogada jako dobro. Sada možete provjeriti koje su šanse da ćete pogoditi barem 60 od 100, ali i koji je "očekivani" raspon broja pogodaka za nekog prosiječnog igrača. Naravno, na taj način možete vidjeti i dali je navodno dobro pogađanje nekog tipstera doista "dobro" tipiranje (npr. njegov rezultat postiže samo 10ak% igraca, ili je nevjerojatno dobar (vjerojatno neistinit) sa npr. rezultatom koji se postiže u manje od 1% slučajeva.
+</value>
+  </data>
+  <data name="HelpTextMultiK.Text" xml:space="preserve">
+    <value>Multiple Kelly
+
+služi za izračun optimalnog uloga (Kelly-jevog uloga) za više istovremenih oklada
+
+Podsjetimo, Kelly-jev ulog je onaj iznos uloga (izražen u postotku našeg ukupnog kapitala (Banke) pri kojemu dugoročno ostvarujemo maksimalan moguci profit. Primjenjiv je kada imamo jedan koeficijent i za njega šanse, a umnožak im je veći od jedan.
+
+(npr. kfc. 2.30 i šanse za pogodit ga od 45% pa je 2.30 x 0.45 = 1.035; Kelly-jev ulog tada iznosi:
+
+u = (2.30 x 0.45 - 1) / (2.30 - 1)  a to je =2.69% od našeg ukupnog kapitala za klađenje)
+
+Ovaj slučaj je jednostavan jer imamo samo jedan dogadaj, ali kada ih se više odigrava istovremeno onda je prilično teško izračunati optimalni ulog. Mi to krivo zovemo "višestruki ili multi Kelly" (Kelly-jeva formula nije nikako povezana sa viseštrukim istovremenim optimiziranim ulozima) ali koristimo taj termin jer je ljudima blizak i asocira na "ispravno ulaganje".
+
+O ćemu se radi najlakše je dočarati primjerom u kojem vam Kelly-jev ulog ispadne npr. 12% a imamo 10 istovremenih oklada, jasno je da ne možemo uložiti 12% na svaku jer je to 120%. Formula je vrlo komplicirana, pa tako i algoritam zahtjeva dosta vremena i snažno računalo.
+Zato sam ostavio mogućnost približnog računanja i svojevrsnog pokazatelja trajanja izračunavanja, ukoliko se odlučite za veću preciznost (Precision).
+
+Nakon unosa (za sada do pet različitih istovremenih) koeficijenata kliknite na gumb "Aproximation" i dobit ćete približne uloge, ali i procjenu trajanja izračuna za (unešenu preciznost). Brojka npr. 27 znači da je na "starijim" računalima potrebno vrijeme računanja možda 27 sekundi, međutim na "novima" će to trajati možda jednu sekundu. Pa tako broj  27 ne označava sekunde nego se radi o -složenosti algoritma- i vrijeme njegovog izračuna ovisi o "stroju".
+
+Kada unesete samo jedan koeficijent, slika s desne strane ilustrira krivulju po kojoj se dugoročno u prosjeku kreće dobit pri određenom postotku uloga. U vrhu krivulje je maksimalna dobit i postiže se pri "Kelly-jevom" ulogu. Kada imamo dva koeficijenta ilustracija prikazuje trodimenzionalnu "opnu" po kojoj se dobit kreće ovisno o ulozima. Kod tri i više koeficijenta prelazimo u višedimenzionalne matematičke prostore koje je teško vizualno dočarati... ali očito i izračunati.. mada, kako smo vidjeli, ne i nemoguće. 
+</value>
+  </data>
+  <data name="HelpTextTennis.Text" xml:space="preserve">
+    <value>Tennis
+
+Sve što je potrebno za pređvidanje koeficijenata u tenisu
+
+se moze pronaci u ovom alatu. Bazira se na tri stvari. Mjestu na ATP ljestvici na kojoj se igrač nalazi, te njegovom prosiječnom osvajanju poena na servisu i kad prima servis. Program koristi metodu Markovljevih lanaca da bi "prosijao" vjerojatnosti za svaki postignuti poen, gem, set i na kraju meč. Iz tih podataka izvlače se još i broj gemova i hendikepi. Sve uredno pretvoreno u koeficijente, sa dodatnom mogučnosću unosa ponuđenih koeficijenata od strane kladionica, za lakšu usporedbu i pronalaženja "value bet-ova".
+
+Klikom na prvu lijevu gornju "kućicu" (označenu strelicom) otvara se prozor za unos parametara. Nakon toga treba samo kliknuti na plavi "Calculate" i koeficijenti su tu.
+
+Ako opravdano sumnjate na izračunate koeficijente, korekciju mozete obaviti tako da promjenite igračev ATP polozaj i približite ga ili odmaknete od protivnika. Na taj nacin možete "upasati" koeficijente sa ponudom kladionica i potražiti anomalije u broju gemova ili setova ili hendikepu, te tako pronaći "value".
+
+</value>
+  </data>
+  <data name="HelpTextWinC.Text" xml:space="preserve">
+    <value>Win Calculator
+
+služi za točan izračun dobitaka na listiću
+
+U "kućice" ispod [Odds] unosimo odigrane koeficijente iz sistema. U [Cumulative Fixed odds] unosimo ukupni koeficijent fikseva (ako smo ih igrali, ako nismo onda ostavimo "1").
+
+U polja [x out of y] unosimo o kojem se sistemu radi (npr. 3 od 7), a pod [Invest] unesemo ukupni ulog na listiću (treba unesti onaj ulog koji se doista odnosi na okladu, ali ne i onaj dio koji otpada na troškove kladionici)
+
+Pod [Minimum] i [Maximum] nalaze se (u rasponu od-do) iznosi koje možete osvojiti ukoliko promašite određeni broj parova sa listića.
+Znači ako ste promašili dva para tada vam u retku pod broj 2 ispod [Minimum] piše minimalni mogući iznos koji ćete osvojiti
+(znači ako promašite dva najveća koeficijenta sa listića), a pod [Maximum] naravno maksimalni mogući dobitak sa dva promašaja.
+(Nemaju veze sa koeficijentom koji se nalazi pod rednim brojem 2., nego samo pokazuju općenito stanje za "neka dva" promašaja)
+
+Ako vas zanima točan dobitak u konkretnom slučaju, kada znate koja su dva para bili promašeni, onda u njihova polja unesite nule [0] umjesto koeficijenta.
+Tada nestaju min. i max. iznosi, a točan dobitak za taj slučaj ispisan je ispod uloga. 
+</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAMDAAAAEAIACoJQAAFgAAACgAAAAwAAAAYAAAAAEAIAAAAAAAACQAABAnAAAQJwAAAAAAAAAA
+        AAD/////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        /////////////////////////7/v//+Y5f//n+f//57n//+e5///nuf//57n//+e5///nuf//57n//+e
+        5///nuf//57n//+e5///nuf//57n//+e5///nuf//57n//+e5///nef//5/m///x////+Or//6RK//+e
+        PP//oED//58///+fP///nz///58///+fP///nz///58///+fP///nz///58///+fP///nz///58///+f
+        P///nz///58///+gQf//mzb//7Vq////////+P3//3Lc//9b1v//Ydj//2DX//9g1///YNf//2DX//9g
+        1///YNf//2DX//9g1///YNf//2DX//9g1///YNf//2DX//9g1///YNf//2DX//9g1///Ytj//1XS///U
+        ////363//28A//97AP//eQD//3kA//95AP//eQD//3kA//95AP//eQD//3kA//95AP//eQD//3kA//95
+        AP//eQD//3kA//95AP//eQD//3kA//96AP//dgD//4QJ///27f//9fz//3je//9p2v//bdv//2zb//9s
+        2///bNv//2zb//9s2///bNv//2zb//9s2///bNv//2zb//9s2///bNv//2zb//9s2///bNv//2zb//9s
+        2///btv//2LV///W////3q3//3gA//+DBv//gQP//4ED//+BA///gQP//4ED//+BA///gQP//4ED//+B
+        A///gQP//4ED//+BA///gQP//4ED//+BA///gQP//4ED//+CBP//fgD//40a///37v//9f3//3fd//9m
+        2f//a9r//2ra//9q2v//atr//2ra//9q2v//atr//2ra//9q2v//atr//2ra//9q2v//atr//2ra//9q
+        2v//atr//2ra//9q2v//bNr//1/U///W////367//3YA//+CA///gAD//4AA//+AAP//gAD//4AA//+A
+        AP//gAD//4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//+BAf//fQD//4sX///3
+        7v//9f3//3fd//9n2f//a9r//2ra//9q2v//atr//2ra//9q2v//atr//2ra//9q2v//atr//2ra//9q
+        2v//atr//2ra//9q2v//atr//2ra//9q2v//bNr//1/U///W////363//3YA//+CA///gAD//4AA//+A
+        AP//gAD//4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//+B
+        Af//fQD//4sX///37v//9f3//3fd//9n2f//a9r//2ra//9q2v//atr//2ra//9q2v//atr//2ra//9q
+        2v//atr//2ra//9q2v//atr//2ra//9q2v//atr//2ra//9q2v//bNr//1/U///W////363//3YA//+C
+        A///gAD//4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//+A
+        AP//gAD//4AA//+BAf//fQD//4sX///37v//9f3//3fd//9n2f//a9r//2ra//9q2v//atr//2ra//9q
+        2v//atr//2ra//9q2v//atr//2ra//9q2v//atr//2ra//9q2v//atr//2ra//9q2v//bNr//1/U///W
+        ////363//3YA//+CA///gAD//4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//+A
+        AP//gAD//4AA//+AAP//gAD//4AA//+BAf//fQD//4sX///37v//9f3//3fd//9n2f//a9r//2ra//9q
+        2v//atr//2ra//9q2v//atr//2ra//9q2v//atr//2ra//9q2v//atr//2ra//9q2v//atr//2ra//9q
+        2v//bNr//1/U///W////363//3YA//+CA///gAD//4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//+A
+        AP//gAD//4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//+BAf//fQD//4sX///37v//9f3//3fd//9n
+        2f//a9r//2ra//9q2v//atr//2ra//9q2v//atr//2ra//9q2v//atr//2ra//9q2v//atr//2ra//9q
+        2v//atr//2ra//9q2v//bNr//1/U///W////363//3YA//+CA///gAD//4AA//+AAP//gAD//4AA//+A
+        AP//gAD//4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//+BAf//fQD//4sX///3
+        7v//9f3//3fd//9n2f//a9r//2ra//9q2v//atr//2ra//9q2v//atr//2ra//9q2v//atr//2ra//9q
+        2v//atr//2ra//9q2v//atr//2ra//9q2v//bNr//1/U///W////363//3YA//+CA///gAD//4AA//+A
+        AP//gAD//4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//+B
+        Af//fQD//4sX///37v//9f3//3fd//9n2f//a9r//2ra//9q2v//atr//2ra//9q2v//atr//2ra//9q
+        2v//atr//2ra//9q2v//atr//2ra//9q2v//atr//2ra//9q2v//bNr//1/U///W////363//3YA//+C
+        A///gAD//4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//+A
+        AP//gAD//4AA//+BAf//fQD//4sX///37v//9f3//3fd//9n2f//a9r//2ra//9q2v//atr//2ra//9q
+        2v//atr//2ra//9q2v//atr//2ra//9q2v//atr//2ra//9q2v//atr//2ra//9q2v//bNr//1/U///W
+        ////363//3YA//+CA///gAD//4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//+A
+        AP//gAD//4AA//+AAP//gAD//4AA//+BAf//fQD//4sX///37v//9f3//3fd//9n2f//a9r//2ra//9q
+        2v//atr//2ra//9q2v//atr//2ra//9q2v//atr//2ra//9q2v//atr//2ra//9q2v//atr//2ra//9q
+        2v//bNr//1/U///W////363//3YA//+CA///gAD//4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//+A
+        AP//gAD//4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//+BAf//fQD//4sX///37v//9f3//3fd//9n
+        2f//a9r//2ra//9q2v//atr//2ra//9q2v//atr//2ra//9q2v//atr//2ra//9q2v//atr//2ra//9q
+        2v//atr//2ra//9q2v//bNr//1/U///W////363//3YA//+CA///gAD//4AA//+AAP//gAD//4AA//+A
+        AP//gAD//4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//+BAf//fQD//4sX///3
+        7v//9f3//3fd//9n2f//a9r//2ra//9q2v//atr//2ra//9q2v//atr//2ra//9q2v//atr//2ra//9q
+        2v//atr//2ra//9q2v//atr//2ra//9q2v//bNr//1/U///W////363//3YA//+CA///gAD//4AA//+A
+        AP//gAD//4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//+B
+        Af//fQD//4sX///37v//9f3//3fd//9n2f//a9r//2ra//9q2v//atr//2ra//9q2v//atr//2ra//9q
+        2v//atr//2ra//9q2v//atr//2ra//9q2v//atr//2ra//9q2v//bNr//1/U///W////363//3YA//+C
+        A///gAD//4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//+A
+        AP//gAD//4AA//+BAf//fQD//4sX///37v//9f3//3fd//9n2f//a9r//2ra//9q2v//atr//2ra//9q
+        2v//atr//2ra//9q2v//atr//2ra//9q2v//atr//2ra//9q2v//atr//2ra//9q2v//bNr//1/U///W
+        ////363//3YA//+CA///gAD//4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//+A
+        AP//gAD//4AA//+AAP//gAD//4AA//+BAf//fQD//4sX///37v//9f3//3fd//9n2f//a9r//2ra//9q
+        2v//atr//2ra//9q2v//atr//2ra//9q2v//atr//2ra//9q2v//atr//2ra//9q2v//atr//2ra//9q
+        2v//bNr//1/U///W////363//3YA//+CA///gAD//4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//+A
+        AP//gAD//4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//+BAf//fQD//4sX///37v//9f3//3fd//9n
+        2f//a9r//2ra//9q2v//atr//2ra//9q2v//atr//2ra//9q2v//atr//2ra//9q2v//atr//2ra//9q
+        2v//atr//2ra//9q2v//bNr//1/U///W////363//3YA//+CA///gAD//4AA//+AAP//gAD//4AA//+A
+        AP//gAD//4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//+BAf//fQD//4sX///3
+        7v//9f3//3jd//9m2f//a9r//2ra//9q2v//atr//2ra//9q2v//atr//2ra//9q2v//atr//2ra//9q
+        2v//atr//2ra//9q2v//atr//2ra//9q2v//bNr//1/U///W////367//3cA//+CA///gAD//4AA//+A
+        AP//gAD//4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//+B
+        Af//fQD//4wX///37v//9Pz//3bd//9p2v//bdv//2zb//9s2///bNv//2zb//9s2///bNv//2zb//9s
+        2///bNv//2zb//9s2///bNv//2zb//9s2///bNv//2zb//9s2///b9v//2HU///V////3an//3YA//+E
+        B///ggP//4ID//+CA///ggP//4ID//+CA///ggP//4ID//+CA///ggP//4ID//+CA///ggP//4ID//+C
+        A///ggP//4ID//+CBf//fwD//4sV///27P///f7//Xzf//xW1v/8Xtj//FzX//xc1//8XNf//FzX//xc
+        1//8XNf//FzX//xc1//8XNf//FzX//xc1//8XNf//FzX//xc1//8XNf//FzX//xd1//8Xtj//FbT///Y
+        ////7cv//HgA//x4AP/8eQD//HgA//x4AP/8eAD//HgA//x4AP/8eAD//HgA//x4AP/8eAD//HgA//x4
+        AP/8eAD//HgA//x4AP/8eAD//HgA//x5AP/8dAD//Y4d///79v/+/////+n4///I7v//yu///8rv///J
+        7///ye///8nv///J7///ye///8nv///J7///ye///8nv///J7///ye///8nv///J7///ye///8nv///K
+        7///yO7//9Xy///8/v///////+LG///Spv//1ar//9Sp///Uqf//1Kn//9Sp///Uqf//1Kn//9Sp///U
+        qf//1Kn//9Sp///Uqf//1Kn//9Sp///Uqf//1Kn//9Sq///Vqv//0qX//+vX//7/////////4uj//77K
+        ///Ez///w87//8PO///Dzv//w87//8PO///Dzv//w87//8PO///Dzv//w87//8PO///Dzv//w87//8PO
+        ///Dzv//w87//8TO///Czf//ydL///3+//////7/w////7f///+6////uf///7n///+5////uf///7n/
+        //+5////uf///7n///+5////uf///7n///+5////uf///7n///+5////uf///7r///+1////0f/////+
+        /v/+/v//Liz//wAA/v8AAP7/AAD+/wAA/v8AAP7/AAD+/wAA/v8AAP7/AAD+/wAA/v8AAP7/AAD+/wAA
+        /v8AAP7/AAD+/wAA/v8AAP7/AAD+/wAA/v8AAP7/AAD+/8O4///a////HPr8/yP9+/8j/fv/Iv37/yL9
+        +/8i/fv/Iv37/yL9+/8i/fv/Iv37/yL9+/8i/fv/Iv37/yL9+/8i/fv/Iv37/yL9+/8i/fv/Iv37/yT9
+        +/8c/fv/P/79//b////s7P//ExP//wAA//8DA///AgL//wIC//8CAv//AgL//wIC//8CAv//AgL//wIC
+        //8CAv//AgL//wIC//8CAv//AgL//wIC//8CAv//AgL//wIC//8FBf//AAD//7ao///I////IPv//zX/
+        //8y////Mv///zL///8y////Mv///zL///8y////Mv///zL///8y////Mv///zL///8y////Mv///zL/
+        //8y////Mv///zP///8t////Qv////D////u7v//GBj//wAA//8BAf//AAD//wAA//8AAP//AAD//wAA
+        //8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8DA///AAD//7ms
+        ///L////H/v//zL///8v////L////y////8v////L////y////8v////L////y////8v////L////y//
+        //8v////L////y////8v////L////zD///8q////Qv////H////u7v//Fxf//wAA//8BAf//AAD//wAA
+        //8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA
+        //8DA///AAD//7ir///L////H/v//zL///8v////L////y////8v////L////y////8v////L////y//
+        //8v////L////y////8v////L////y////8v////L////zD///8q////Qv////H////u7v//Fxf//wAA
+        //8BAf//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA
+        //8AAP//AAD//wAA//8DA///AAD//7ir///L////H/v//zL///8v////L////y////8v////L////y//
+        //8v////L////y////8v////L////y////8v////L////y////8v////L////zD///8q////Qv////H/
+        ///u7v//Fxf//wAA//8BAf//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA
+        //8AAP//AAD//wAA//8AAP//AAD//wAA//8DA///AAD//7ir///L////H/v//zL///8v////L////y//
+        //8v////L////y////8v////L////y////8v////L////y////8v////L////y////8v////L////zD/
+        //8q////Qv////H////u7v//Fxf//wAA//8BAf//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA
+        //8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8DA///AAD//7ir///L////H/v//zL/
+        //8v////L////y////8v////L////y////8v////L////y////8v////L////y////8v////L////y//
+        //8v////L////zD///8q////Qv////H////u7v//Fxf//wAA//8BAf//AAD//wAA//8AAP//AAD//wAA
+        //8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8DA///AAD//7ir
+        ///L////H/v//zL///8v////L////y////8v////L////y////8v////L////y////8v////L////y//
+        //8v////L////y////8v////L////zD///8q////Qv////H////u7v//Fxf//wAA//8BAf//AAD//wAA
+        //8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA
+        //8DA///AAD//7ir///L////H/v//zL///8v////L////y////8v////L////y////8v////L////y//
+        //8v////L////y////8v////L////y////8v////L////zD///8q////Qv////H////u7v//Fxf//wAA
+        //8BAf//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA
+        //8AAP//AAD//wAA//8DA///AAD//7ir///L////H/v//zL///8v////L////y////8v////L////y//
+        //8v////L////y////8v////L////y////8v////L////y////8v////L////zD///8q////Qv////H/
+        ///u7v//Fxf//wAA//8BAf//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA
+        //8AAP//AAD//wAA//8AAP//AAD//wAA//8DA///AAD//7ir///L////H/v//zL///8v////L////y//
+        //8v////L////y////8v////L////y////8v////L////y////8v////L////y////8v////L////zD/
+        //8q////Qv////H////u7v//Fxf//wAA//8BAf//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA
+        //8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8DA///AAD//7ir///L////H/v//zL/
+        //8v////L////y////8v////L////y////8v////L////y////8v////L////y////8v////L////y//
+        //8v////L////zD///8q////Qv////H////u7v//Fxf//wAA//8BAf//AAD//wAA//8AAP//AAD//wAA
+        //8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8DA///AAD//7ir
+        ///L////H/v//zL///8v////L////y////8v////L////y////8v////L////y////8v////L////y//
+        //8v////L////y////8v////L////zD///8q////Qv////H////u7v//Fxf//wAA//8BAf//AAD//wAA
+        //8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA
+        //8DA///AAD//7ir///L////H/v//zL///8v////L////y////8v////L////y////8v////L////y//
+        //8v////L////y////8v////L////y////8v////L////zD///8q////Qv////H////u7v//Fxf//wAA
+        //8BAf//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA
+        //8AAP//AAD//wAA//8DA///AAD//7ir///L////H/v//zL///8v////L////y////8v////L////y//
+        //8v////L////y////8v////L////y////8v////L////y////8v////L////zD///8q////Qv////H/
+        ///u7v//Fxf//wAA//8BAf//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA
+        //8AAP//AAD//wAA//8AAP//AAD//wAA//8DA///AAD//7ir///L////H/v//zL///8v////L////y//
+        //8v////L////y////8v////L////y////8v////L////y////8v////L////y////8v////L////zD/
+        //8q////Qv////H////u7v//Fxf//wAA//8BAf//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA
+        //8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8DA///AAD//7ir///L////H/v//zL/
+        //8v////L////y////8v////L////y////8v////L////y////8v////L////y////8v////L////y//
+        //8v////L////zD///8q////Qv////H////u7v//Fxf//wAA//8BAf//AAD//wAA//8AAP//AAD//wAA
+        //8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8DA///AAD//7ir
+        ///L////H/v//zL///8v////L////y////8v////L////y////8v////L////y////8v////L////y//
+        //8v////L////y////8v////L////zD///8q////Qv////H////u7v//Fxf//wAA//8BAf//AAD//wAA
+        //8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA
+        //8DA///AAD//7ir///L////H/v//zL///8v////L////y////8v////L////y////8v////L////y//
+        //8v////L////y////8v////L////y////8v////L////zD///8q////Qv////H////u7v//GRn//wAA
+        //8DA///AgL//wIC//8CAv//AgL//wIC//8CAv//AgL//wIC//8CAv//AgL//wIC//8CAv//AgL//wIC
+        //8CAv//AgL//wIC//8FBf//AAD//7ms///K////Ivv//zT///8x////Mf///zH///8x////Mf///zH/
+        //8x////Mf///zH///8x////Mf///zH///8x////Mf///zH///8x////Mf///zL///8t////RP////H/
+        ///w8P//DQ3//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA
+        //8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//7Kl///O////E/v//yb///8k////JP///yT/
+        //8k////JP///yT///8k////JP///yT///8k////JP///yT///8k////JP///yT///8k////JP///yX/
+        //8e////Nv////H/////////enr//x8f//8qKv//KCj//ygo//8oKP//KCj//ygo//8oKP//KCj//ygo
+        //8oKP//KCj//ygo//8oKP//KCj//ygo//8oKP//KCj//ykp//8mJv//NTb//97c///8////ef3//1//
+        //9j////Yv///2L///9i////Yv///2L///9i////Yv///2L///9i////Yv///2L///9i////Yv///2L/
+        //9i////Yv///2T///9c////lv////////////////////7+///9/f///f3///39///9/f///f3///39
+        ///9/f///f3///39///9/f///f3///39///9/f///f3///39///9/f///f3///39///7+///////////
+        /////v//////////////////////////////////////////////////////////////////////////
+        //////////////////////////////////////////////////8AAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAA=
+</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>  AdvancedBetCalc                                                                                                                                                                                                                                       v2.3.0</value>
+  </data>
+</root>
